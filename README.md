@@ -42,7 +42,7 @@ Once running correctly, you should see this in your logs:
 
 In this example, the log file source and sourcetype are hard coded in the fluentd.conf. These can also be set as OS variables in Balena if preferred.
 
-Here's an example search in Splunk using the load5min metric:
+Here's an example search in Splunk. Note that the events are forwarded by fluentd as JSON:
 ![splunk_dashboard](/img/splunk_search.png)
 
 
