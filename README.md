@@ -1,4 +1,4 @@
-## A Simple Balena integration with Splunk using Fluentd
+## A simple Balena integration with Splunk using Fluentd
 
 This is a simple [Splunk][splunk-link] log integration using fluentd that works with any of the devices supported by [Balena][balena-link].
 
