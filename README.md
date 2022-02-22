@@ -2,7 +2,7 @@
 
 This is a simple [Splunk][splunk-link] integration that works with any of the devices supported by [Balena][balena-link].
 
-The main.py script collects OS performance metrics via shell commands and then sends to a specified metrics index on either Splunk Cloud or Splunk Enterprise.
+test. The main.py script collects OS performance metrics via shell commands and then sends to a specified metrics index on either Splunk Cloud or Splunk Enterprise.
 
 To get this project up and running on the Splunk end, you'll need to have a working [Splunk Cloud][splunk-cloud-trial] or [Splunk Enterprise][splunk-enterprise-trial] environment with the [HTTP Event Collector (HEC)][splunk-hec] enabled and accessible from the internet. You'll also need to create a HEC  authentication token and have a target metrics index enabled.
 
