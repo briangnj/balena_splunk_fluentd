@@ -1,0 +1,16 @@
+version: '2'
+
+volumes:
+ log-volume:
+
+services:
+ writelogs:
+  build: './writelogs'
+  volumes:
+   - 'log-volume:/logs'
+ sendlogs:
+  build: './sendlogs'
+  labels:
+   'io.balena.features.test': 1
+  volumes:
+   - 'log-volume:/logs'

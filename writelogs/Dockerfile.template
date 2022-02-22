@@ -1,0 +1,6 @@
+FROM balenalib/%%BALENA_MACHINE_NAME%%-debian
+
+
+WORKDIR /usr/src
+COPY . ./
+CMD ["/bin/bash", "-c", "src/main.sh"]
